@@ -1,23 +1,25 @@
 @extends('layout.main')
 @section('content')
-    <div class="hero" id="home">
-        <div class="grid-hero">
-            <div class="hero-text">
-                <p class="hero-title">Explore <span class="block-lg">Igbo culture</span> <span class="block-lg">with
-                        Omenka.</span></p>
-                <p class="hero-subtitle">Immerse Yourself in Igbo Heritage - <span>Cultivating Connection, Community &
-                        Beyond</span></p>
-                <div class="download-btns">
-                    <a href="https://apps.apple.com/ng/app/omenka/id6477753751">
-                        <img src={{ asset('assets/images/appstore.png') }} alt="">
-                    </a>
-                    <a href="https://play.google.com/store/apps/details?id=com.omenkaapp">
-                        <img src={{ asset('assets/images/googleplay.png') }} alt="">
-                    </a>
+    <div class="container-fluid">
+        <div class="hero" id="home">
+            <div class="grid-hero">
+                <div class="hero-text">
+                    <p class="hero-title text-green">Explore Igbo culture with
+                        Omenka.</p>
+                    <p class="hero-subtitle">Immerse Yourself in Igbo Heritage - <span>Cultivating Connection, Community &
+                            Beyond</span></p>
+                    <div class="download-btns">
+                        <a href="https://apps.apple.com/ng/app/omenka/id6477753751">
+                            <img src={{ asset('assets/images/appstore.png') }} alt="">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.omenkaapp">
+                            <img src={{ asset('assets/images/google-play.png') }} alt="">
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div>
-                <img src={{ asset('assets/images/hero-img.png') }} alt="">
+                <div>
+                    <img src={{ asset('assets/images/hero-img.png') }} alt="">
+                </div>
             </div>
         </div>
     </div>
@@ -147,6 +149,112 @@
                     </div>
                 </div>
             </div>
+
+
+
+
+
+        </div>
+    </div>
+
+    <div class="section bg-dark-yellow">
+        <div class="container-100">
+            <div class="row justify-content-center mb-4">
+                <div class="col-lg-6">
+                    <p class="title text-center mt-10">Events</p>
+                    <p class="subtitle text-center">Discover What's Happening Next</p>
+                </div>
+            </div>
+
+            <swiper-container class="mySwiper events-swiper" pagination="true" pagination-clickable="true"
+                slides-per-view="3" space-between="30" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide>
+                    <div class="events">
+                        <div class="event-notice">
+                            upcoming event
+                        </div>
+                        <div class="events-img">
+                            <img src={{ asset('assets/images/music-explore.png') }} alt="">
+                        </div>
+                        <div class="events-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet libero corrupti nemo earum magni
+                            alias numquam molestias in et laudantium fuga, illo excepturi velit maiores beatae debitis
+                            adipisci assumenda iure iusto tempore tenetur. Ullam necessitatibus ad iusto veritatis.
+                            Dignissimos impedit incidunt eligendi molestiae eveniet eaque unde quis quae consectetur eum.
+                        </div>
+                        <a href="event" class="view-more">View More</a>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="events">
+                        <div class="event-notice">
+                            past event
+                        </div>
+                        <div class="events-img">
+                            <img src={{ asset('assets/images/music-explore.png') }} alt="">
+                        </div>
+                        <div class="events-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet libero corrupti nemo earum magni
+                            alias numquam molestias in et laudantium fuga, illo excepturi velit maiores beatae debitis
+                            adipisci assumenda iure iusto tempore tenetur. Ullam necessitatibus ad iusto veritatis.
+                            Dignissimos impedit incidunt eligendi molestiae eveniet eaque unde quis quae consectetur eum.
+                        </div>
+                        <a href="event" class="view-more">View More</a>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="events">
+                        <div class="event-notice">
+                            upcoming event
+                        </div>
+                        <div class="events-img">
+                            <img src={{ asset('assets/images/music-explore.png') }} alt="">
+                        </div>
+                        <div class="events-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet libero corrupti nemo earum magni
+                            alias numquam molestias in et laudantium fuga, illo excepturi velit maiores beatae debitis
+                            adipisci assumenda iure iusto tempore tenetur. Ullam necessitatibus ad iusto veritatis.
+                            Dignissimos impedit incidunt eligendi molestiae eveniet eaque unde quis quae consectetur eum.
+                        </div>
+                        <a href="event" class="view-more">View More</a>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="events">
+                        <div class="event-notice">
+                            upcoming event
+                        </div>
+                        <div class="events-img">
+                            <img src={{ asset('assets/images/music-explore.png') }} alt="">
+                        </div>
+                        <div class="events-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet libero corrupti nemo earum magni
+                            alias numquam molestias in et laudantium fuga, illo excepturi velit maiores beatae debitis
+                            adipisci assumenda iure iusto tempore tenetur. Ullam necessitatibus ad iusto veritatis.
+                            Dignissimos impedit incidunt eligendi molestiae eveniet eaque unde quis quae consectetur eum.
+                        </div>
+                        <a href="event" class="view-more">View More</a>
+                    </div>
+                </swiper-slide>
+                <swiper-slide>
+                    <div class="events">
+                        <div class="event-notice">
+                            upcoming event
+                        </div>
+                        <div class="events-img">
+                            <img src={{ asset('assets/images/music-explore.png') }} alt="">
+                        </div>
+                        <div class="events-desc">
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet libero corrupti nemo earum magni
+                            alias numquam molestias in et laudantium fuga, illo excepturi velit maiores beatae debitis
+                            adipisci assumenda iure iusto tempore tenetur. Ullam necessitatibus ad iusto veritatis.
+                            Dignissimos impedit incidunt eligendi molestiae eveniet eaque unde quis quae consectetur eum.
+                        </div>
+                        <a href="event" class="view-more">View More</a>
+                    </div>
+                </swiper-slide>
+
+            </swiper-container>
 
 
 
@@ -319,7 +427,7 @@
                                 <img src={{ asset('assets/images/appstore.png') }} alt="">
                             </a>
                             <a href="https://play.google.com/store/apps/details?id=com.omenkaapp">
-                                <img src={{ asset('assets/images/googleplay.png') }} alt="">
+                                <img src={{ asset('assets/images/google-play.png') }} alt="">
                             </a>
                         </div>
                     </div>

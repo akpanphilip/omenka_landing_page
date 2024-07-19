@@ -79,6 +79,31 @@
         });
         swiperEl.initialize();
     </script>
+      <script>
+        const swiperEl = document.querySelector('.events-swiper')
+        Object.assign(swiperEl, {
+            slidesPerView: 1,
+            spaceBetween: 10,
+            pagination: {
+                clickable: true,
+            },
+            breakpoints: {
+                300: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 20,
+                },
+            },
+        });
+        swiperEl.initialize();
+    </script>
     <script>
         // count up
         const counters = document.querySelectorAll(".counter");
